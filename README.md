@@ -1,11 +1,15 @@
 ## Installation
-Clone the repo
-then
+Clone the repo, then
 ```bash
 docker compose up --build
 
 docker compose up --build -d
 ```
+#### Accessing the Services
+Frontend: http://localhost:5173
+Backend API: http://localhost:8000/api/
+Django Admin: http://localhost:8000/admin/
+
 ---
 
 
