@@ -1,0 +1,36 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+.env/
+
+# Python cache and bytecode
+**/__pycache__/
+**/*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Node dependencies and build output
+**/node_modules/
+**/dist/
+**/dist-ssr/
+*.local
+
+# Git and OS metadata
+.git/
+.gitignore
+.DS_Store
+Thumbs.db
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker files
+Dockerfile*
+docker-compose*.yml
+compose*.yaml
+.dockerignore

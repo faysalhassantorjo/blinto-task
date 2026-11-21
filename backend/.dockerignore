@@ -1,0 +1,22 @@
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Git & OS
+.git/
+.gitignore
+.DS_Store
+Thumbs.db
+
+# IDE & Editor
+.vscode/
+.idea/
