@@ -1,4 +1,15 @@
-feature 1
+## Installation
+Clone the repo
+then
+```bash
+docker compose up --build
+
+docker compose up --build -d
+```
+---
+
+
+## Feature 1
 I was already familiar with this type of problem beacuse i had solved similar graph problem on Leetcode (Course Schedule).
 
 my approach
@@ -9,10 +20,11 @@ my approach
 - if cycle exists, the application will return the required error
 - otherwise, the prerequisites are traversed to dermine a valid viewing order
 
-feature 2
+## Feature 2
 The second feature required a Dynamic Programming (DP) approach.
 At the time of working on this assignment, i was actively practicing graph problems and had not yet started studying DP in dept. However, i was familiar with the Coin change problem and its minimum coins variation.
 
+---
 
 I used Antigravity (AI coding agent) as a development assistant during this assignment.
 
